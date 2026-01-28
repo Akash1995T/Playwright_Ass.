@@ -1,0 +1,16 @@
+{
+  "name": "douglas-playwright-advanced",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "dotenv": "^16.4.1",
+    "typescript": "^5.3.3"
+  }
+}
